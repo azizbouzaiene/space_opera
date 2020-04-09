@@ -21,8 +21,8 @@ SDL_Surface *herosprite;
 int nbrIm;
 int numIm;
 int direction;
-int heropos
-struct movement
+int heropos;
+movement movement;
 char name[20];
 score s;
 vie v;
