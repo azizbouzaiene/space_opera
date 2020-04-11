@@ -6,7 +6,7 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
 #include <SDL/SDL_ttf.h>
-#include "scoreVie.h"
+
 
 typedef struct 
 {
@@ -21,11 +21,8 @@ SDL_Surface *herosprite;
 int nbrIm;
 int numIm;
 int direction;
-int heropos;
 movement movement;
 char name[20];
-score s;
-vie v;
 }personnage;
 
 personnage initialiser_personnage();
